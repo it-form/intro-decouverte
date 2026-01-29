@@ -1,1 +1,2 @@
 "Ceci est un fichier d'informations" 
+"Ce fichier est modifi‚ par cette phrase" 
