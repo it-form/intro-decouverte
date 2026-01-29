@@ -1,3 +1,0 @@
-"Fichier initial en version #1" 
-"Ajout de cette ligne - V2" 
-"Ajout de la ligne pour passage en V3" 
