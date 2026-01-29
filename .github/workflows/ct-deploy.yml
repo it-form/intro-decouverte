@@ -22,8 +22,8 @@ jobs:
               environment:
                 MYSQL_DATABASE: wordpress
                 MYSQL_USER: wpuser
-                MYSQL_PASSWORD: poseidon
-                MYSQL_ROOT_PASSWORD: poseidon
+                MYSQL_PASSWORD: wppass
+                MYSQL_ROOT_PASSWORD: rootpass
               ports:
                 - "3306:3306"
             wordpress:
@@ -34,7 +34,7 @@ jobs:
               environment:
                 WORDPRESS_DB_HOST: db:3306
                 WORDPRESS_DB_USER: wpuser
-                WORDPRESS_DB_PASSWORD: poseidon
+                WORDPRESS_DB_PASSWORD: wppass
                 WORDPRESS_DB_NAME: wordpress
               depends_on:
                 - db
